@@ -45,6 +45,7 @@
         <Compile Include="Abstract\Transactional.cs"/>
         <Compile Include="CellSink.cs"/>
         <Compile Include="Extensions\LiftExtensions.cs"/>
+        <Compile Include="Extensions\MapExtensions.cs"/>
         <Compile Include="Extensions\MergeExtensions.cs"/>
         <Compile Include="Extensions\StreamExtensions.cs"/>
         <Compile Include="Internal\LiftStream.cs"/>

@@ -1,9 +1,10 @@
 ﻿#nullable enable
-namespace FRPStreams.Core.Abstract
+namespace FRPStreams.Core
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
+    using Abstract;
 
     public class Cell<T> : Stream<T>
     {

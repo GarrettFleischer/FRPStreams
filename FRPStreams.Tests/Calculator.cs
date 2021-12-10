@@ -2,8 +2,6 @@
 {
     using System.Threading.Tasks;
     using Core;
-    using Core.Abstract;
-    using Core.Extensions;
 
     public class Calculator
     {

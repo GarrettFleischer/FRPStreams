@@ -23,13 +23,4 @@ namespace FRPStreams.Core.Internal
             Hold(_map(_dependency.PendingValue));
         }
     }
-
-    public static class CellExtensions
-    {
-        public static Cell<TMap> Map<T, TMap>(this Stream<T> stream, Func<T, TMap> map,
-            Func<TMap, TMap, bool>? compare = null)
-        {
-            return new MapCell<TMap, T>(stream, map, compare);
-        }
-    }
 }

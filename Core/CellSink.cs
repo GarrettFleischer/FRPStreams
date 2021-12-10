@@ -2,7 +2,6 @@
 namespace FRPStreams.Core
 {
     using System;
-    using Abstract;
 
     public class CellSink<T> : Cell<T>
     {

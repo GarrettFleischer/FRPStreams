@@ -1,4 +1,5 @@
-﻿namespace FRPStreams.Core.Extensions
+﻿#nullable enable
+namespace FRPStreams.Core
 {
     using System;
     using Abstract;
