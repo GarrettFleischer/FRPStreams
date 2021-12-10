@@ -8,7 +8,7 @@ namespace FRPStreams.Core.Extensions
     public static partial class StreamExtensions
     {
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<TLeft, TRight>> Merge<TLeft, TRight>(
@@ -20,7 +20,7 @@ namespace FRPStreams.Core.Extensions
         }
 
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<T1, T2, T3>> Merge<T1, T2, T3>(
@@ -31,7 +31,7 @@ namespace FRPStreams.Core.Extensions
         }
 
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<T1, T2, T3, T4>> Merge<T1, T2, T3, T4>(
@@ -42,7 +42,7 @@ namespace FRPStreams.Core.Extensions
         }
 
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<T1, T2, T3, T4, T5>> Merge<T1, T2, T3, T4, T5>(
@@ -53,7 +53,7 @@ namespace FRPStreams.Core.Extensions
         }
 
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<T1, T2, T3, T4, T5, T6>> Merge<T1, T2, T3, T4, T5, T6>(
@@ -65,7 +65,7 @@ namespace FRPStreams.Core.Extensions
         }
 
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<T1, T2, T3, T4, T5, T6, T7>> Merge<T1, T2, T3, T4, T5, T6, T7>(
@@ -78,7 +78,7 @@ namespace FRPStreams.Core.Extensions
         }
 
         /// <summary>
-        /// Given Streams, return a Tuple of their values.
+        ///     Given Streams, return a Tuple of their values.
         /// </summary>
         /// <returns>A Tuple containing the values of the given Streams.</returns>
         public static Stream<Tuple<T1, T2, T3, T4, T5, T6, T7, T8>> Merge<T1, T2, T3, T4, T5, T6, T7, T8>(

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{18211678-9CDD-40A3-9295-D08F2F1BCE14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRPStreams.Tests", "FRPStreams.Tests\FRPStreams.Tests.csproj", "{42A0C070-D31E-4341-ADF2-09647632AD2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{18211678-9CDD-40A3-9295-D08F2F1BCE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18211678-9CDD-40A3-9295-D08F2F1BCE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18211678-9CDD-40A3-9295-D08F2F1BCE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A0C070-D31E-4341-ADF2-09647632AD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A0C070-D31E-4341-ADF2-09647632AD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A0C070-D31E-4341-ADF2-09647632AD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A0C070-D31E-4341-ADF2-09647632AD2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

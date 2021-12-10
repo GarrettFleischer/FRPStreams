@@ -4,7 +4,7 @@ namespace FRPStreams.Core
     using System;
 
     /// <summary>
-    /// Equivalent to a "null" value to be used in <see cref="StreamSink{Unit}"/>
+    ///     Equivalent to a "null" value to be used in <see cref="StreamSink{Unit}" />
     /// </summary>
     public class Unit : IEquatable<Unit>
     {
